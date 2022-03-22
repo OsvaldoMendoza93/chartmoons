@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GraphicComponentComponent } from './components/graphic-component/graphic-component.component';
+import { GraphicComponentComponent } from './modules/graphic-module/components/graphic-component/graphic-component.component';
 
 @NgModule({
   declarations: [
