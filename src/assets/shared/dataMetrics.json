@@ -1,0 +1,24 @@
+{
+    "metrics":[
+        {
+            "title": "Revenue",
+            "total": 200000,
+            "porcentSmartphone": 60,
+            "porcentTablet": 40
+        },
+        {
+            "title": "Impresions",
+            "total": 50000000,
+            "porcentSmartphone": 60,
+            "porcentTablet": 40
+        },
+        {
+            "title": "Revenue",
+            "total": 600000000,
+            "porcentSmartphone": 20,
+            "porcentTablet": 80
+        } 
+    ]
+}
+
+    
