@@ -1,7 +1,11 @@
 <div class="container">
-    <div class="row">
-        <div class="col-12 col-md-4 d-flex justify-content-center align-self-center" *ngFor="let metric of metrics">
-            <app-graphic-component [metric]="metric"></app-graphic-component>
+    <div class="card shadow">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center align-self-center" *ngFor="let metric of metrics">
+                    <app-graphic-component [metric]="metric"></app-graphic-component>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+  </div>
