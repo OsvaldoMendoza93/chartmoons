@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { Observable } from 'rxjs';
-import { DataGraphicModel, Metrics } from '../../models/data-graphic.model';
+import { DataGraphicModel } from '../../models/data-graphic.model';
 import { map } from 'rxjs/operators';
 
 @Injectable({

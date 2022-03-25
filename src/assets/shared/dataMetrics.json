@@ -3,20 +3,26 @@
         {
             "title": "Revenue",
             "total": 200000,
-            "porcentSmartphone": 60,
-            "porcentTablet": 40
+            "percentageSmartphone": 40,
+            "percentageTablet": 60,
+            "colorTablet": "#90cc55",
+            "colorSmartphone": "#41691e"
         },
         {
             "title": "Impresions",
             "total": 50000000,
-            "porcentSmartphone": 60,
-            "porcentTablet": 40
+            "percentageSmartphone": 60,
+            "percentageTablet": 40,
+            "colorTablet": "#8cc9dc",
+            "colorSmartphone": "#275365"
         },
         {
-            "title": "Revenue",
+            "title": "Visits",
             "total": 600000000,
-            "porcentSmartphone": 20,
-            "porcentTablet": 80
+            "percentageSmartphone": 20,
+            "percentageTablet": 80,
+            "colorTablet": "#f0c122",
+            "colorSmartphone": "#b45814"
         } 
     ]
 }

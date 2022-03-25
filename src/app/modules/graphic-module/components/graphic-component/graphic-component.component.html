@@ -1,1 +1,28 @@
-<p>graphic-component works!</p>
+<div style="width: 250px; height: 250px;">
+    <canvas
+        #mycanvas
+        baseChart
+        [data]="doughnutChartData"
+        [options]="doughnutChartOptions"
+        [type]="doughnutChartType"
+        >
+    </canvas>
+</div>
+<!-- <div class="donut-inner">
+    <h5>47 / 60 st</h5>
+    <span>(30 / 25 st)</span>
+</div> -->
+<div class="row">
+    <div class="col col-6 col-md-6 d-flex justify-content-center">
+        <div>
+            <b [ngStyle]="{color: metric.colorTablet}">Tablet</b><br>
+            <b [ngStyle]="{color: '#4f4f4f'}">{{metric.percentageTablet / percentage | percent}} </b> <b [ngStyle]="{color: '#d7d7d7'}">{{metric.totalTablet | number: '1.0-0'}}</b>
+        </div>
+    </div>
+    <div class="col col-6 col-md-6 d-flex justify-content-center">
+        <div>
+            <b [ngStyle]="{color: metric.colorSmartphone}">Smartphone</b><br>
+            <b [ngStyle]="{color: '#4f4f4f'}">{{metric.percentageSmartphone / percentage | percent}} </b> <b [ngStyle]="{color: '#d7d7d7'}">{{metric.totalSmartphone | number: '1.0-0'}}</b>
+        </div>
+    </div>
+</div>
